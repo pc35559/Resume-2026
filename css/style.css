@@ -1,8 +1,9 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   width: 920px;
 }
+
 html {
   display: table;
   margin: auto;
@@ -101,8 +102,13 @@ header img {
   color: black;
 }
 
+.contact-grid a:hover {
+  color: orange;
+}
+
 .contact-grid i {
   color: orange;
+  padding-right: 8px;
 }
 
 .tagline {
@@ -138,6 +144,14 @@ header img {
   grid-template-rows: auto;
   font-size: 14px;
   padding-right: 10px;
+}
+
+.jobs a {
+  color: black;
+}
+
+.jobs a:hover {
+  color: orange;
 }
 
 .jobs div {
@@ -200,6 +214,30 @@ header img {
   width: 250px;
 }
 
+
+/***** Footer *****/
+footer {
+  display: flex;
+  background: linear-gradient(90deg, white 0%, #63b8cb 15%, #1a9fbc 50%, #63b8cb 85%, white 100%);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:visited {
+  color: white;
+}
+
+footer a:hover {
+  color: orange;
+}
 /************* Sections ********************/
 hr {
 
