@@ -1,0 +1,301 @@
+body {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  width: 920px;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+
+.montserrat-headings {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-headings {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+
+
+/****************   Nav Section **********************/
+nav {
+	display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 15px 0px 0px 45px;
+  /*padding: 30px 20px 30px 20px;*/
+  /*background-image: linear-gradient(to bottom, cyan, magenta, white);*/
+}
+
+nav h1 {
+  margin-bottom: 0px;
+}
+
+nav p {
+  margin-top: 5px;
+  color: #4ea9b6;
+  font-weight: 650;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/***********************  Footer Section   **************************/
+footer {
+	
+}
+
+/*********** Splash Page ************************/
+header {
+  display: flex;
+  align-items: start;
+  margin: 15px 0px 0px 45px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-section h5 {
+  display: flex;
+  transform: rotate(270deg);
+  align-items: start;
+  color: #4ea9b6;
+}
+
+header img {
+  clip-path: circle();
+  margin-left: 10px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 15px;
+  margin: 10px 50px 0px 50px;
+}
+
+.contact-grid a {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-grid a:hover {
+  color: orange;
+}
+
+.contact-grid i {
+  color: orange;
+  padding-right: 8px;
+}
+
+.tagline {
+  font-size: 12px;
+}
+
+/************* Experience/Skills Sections ****************/
+.master-grid {
+  display: grid;
+  grid-template-columns: 440px 360px;
+  margin: 50px 40px 0px 60px;
+}
+
+.pro-exp-section {
+  display: grid;
+  grid-template-columns: 30px 430px;
+}
+
+.pro-exp-title {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 172px;
+}
+
+.pro-exp-title h5 {
+  transform: rotate(270deg);
+  color: #4ea9b6;
+  max-width: 0px;
+}
+
+.jobs {
+  display: grid;
+  grid-template-rows: auto;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.jobs a {
+  color: black;
+}
+
+.jobs a:hover {
+  color: orange;
+}
+
+.jobs div {
+  margin-bottom: 20px;
+}
+
+.jobs li {
+  margin-bottom: 10px;
+}
+
+
+
+.others {
+  display: grid;
+  grid-template-rows: 1fr 1.5fr 1.5fr;
+} 
+
+.others h5 {
+  transform: rotate(270deg);
+  color: #4ea9b6;
+  max-width: 0px;
+}
+
+.education-section {
+  display: grid;
+  grid-template-columns: 30px 330px;
+  padding-left: 60px;
+}
+
+.edu-title {
+  display: flex;
+  align-items: center;
+  
+}
+
+.schools {
+  font-size: 14px;
+}
+
+
+
+.skills-section {
+  display: grid;
+  grid-template-columns: 30px 330px;
+  padding-left: 60px;
+}
+
+.skill-title {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.skills div {
+  font-size: 14px;
+}
+
+.skills progress {
+  accent-color: orange;
+  width: 250px;
+}
+
+
+/***** Footer *****/
+footer {
+  display: flex;
+  background: linear-gradient(90deg, white 0%, #63b8cb 15%, #1a9fbc 50%, #63b8cb 85%, white 100%);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:visited {
+  color: white;
+}
+
+footer a:hover {
+  color: orange;
+}
+/************* Sections ********************/
+hr {
+
+}
+
+section h3 {
+  
+}
+
+section dl {
+  
+}
+
+section ul {
+
+}
+
+section a {
+
+}
+
+section a:hover {
+}
+
+/**************   Projects   *****************/
+.three-col {
+	
+}
+
+.card img {
+
+}
+
+.card {
+  
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      
+    }
+
+    .three-col {
+      
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+
+}
+
+input {
+  
+
+}
+
+textarea {
+   
+}
